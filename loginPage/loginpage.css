@@ -57,3 +57,12 @@
     width: 300px;
     height: 40px;
 }
+
+#facebookIcon{
+    width: 25px;
+    height: 25px;
+}
+
+.no-underline {
+    text-decoration: none;
+  }
