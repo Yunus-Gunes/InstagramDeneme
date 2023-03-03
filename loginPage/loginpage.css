@@ -1,0 +1,59 @@
+#ana_metin{
+    text-align: center;
+}
+#ana_obje{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    height: 600px;
+}
+#iç_obje{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 800px;
+    height: 700px;
+    background-color: #ffffff;
+}
+
+.col{
+    width: 400px;
+    background-color: #ffffff;
+}
+
+#gizliDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+#login{
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#myImg{
+    width: 380px;
+    height: 650px;
+}
+
+#loginButton{
+    width: 300px;
+}
+
+#input{
+
+    margin-top: 7px;
+
+    width: 300px;
+    height: 40px;
+}
