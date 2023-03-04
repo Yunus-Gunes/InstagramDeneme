@@ -11,7 +11,7 @@ function merhabaDunya() {
         gizliDiv.style.display = "block";
     }
 }
-
+setInterval(merhabaDunya, 500);
 
 function changeImage() {
     var img = document.getElementById("myImg");
@@ -20,14 +20,25 @@ function changeImage() {
     img.src = images[index];
     
 }
-
-
 setInterval(changeImage, 5000);
-setInterval(merhabaDunya, 500);
+
+
+var p1 = document.getElementById("dene");
+p1.innerText = "11";
 
 
 
 
+function verileriYazdir() {
+    var input1 = document.getElementById("input1");
+    var input2 = document.getElementById("input2");
+    var veri1 = input1.value;
+    var veri2 = input2.value;
+    var veriler = "Veri 1: " + veri1 + "Veri 2: " + veri2;
+
+
+    p1.innerText = veriler;
+  }
 
 
 
