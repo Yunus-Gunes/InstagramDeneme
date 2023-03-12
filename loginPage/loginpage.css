@@ -59,12 +59,27 @@
 }
 
 #facebookIcon{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 
 .no-underline {
     text-decoration: none;
-  }
+}
 
   
+
+#facebooklogin{
+   color:#385185 ;
+   font-size: 14px -apple-stylee;
+}
+
+#sifreUnutma{
+    color: #00376b;
+    font-size: 12px;
+    margin: 12px ,0px,0px;
+}
+
+#kaydol{
+    color:#0095F6 ;
+}

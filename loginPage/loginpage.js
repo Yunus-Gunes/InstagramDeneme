@@ -2,11 +2,10 @@
 
 function merhabaDunya() {
     var sayfaGenisligi = window.innerWidth;
-    document.getElementById("qwe").innerHTML = sayfaGenisligi;
-    if (sayfaGenisligi < 800) {
+    if (sayfaGenisligi < 960) {
         var gizliDiv = document.getElementById("gizliDiv");
         gizliDiv.style.display = "none";
-    }else{
+    } else {
         var gizliDiv = document.getElementById("gizliDiv");
         gizliDiv.style.display = "block";
     }
@@ -18,7 +17,7 @@ function changeImage() {
     var images = ["loginPageImage/loginImage1.jpeg", "loginPageImage/loginImage2.jpeg", "loginPageImage/loginImage3.jpeg"];
     var index = Math.floor(Math.random() * images.length);
     img.src = images[index];
-    
+
 }
 setInterval(changeImage, 5000);
 
@@ -38,7 +37,23 @@ function verileriYazdir() {
 
 
     p1.innerText = veriler;
-  }
+
+
+    if (veri1 == 1 && veri2 == 1) {
+
+    }
+}
+
+function validateForm() {
+    var input1 = document.getElementById("input1").value;
+    var input2 = document.getElementById("input2").value;
+    if ((input1 == 123 && input2 == 123)) {
+        return true;
+    } else {
+        alert("Lütfen doğru değeri girin!");
+        return false;
+    }
+}
 
 
 
